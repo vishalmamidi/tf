@@ -29,4 +29,9 @@ terraform workspace new sit
 terraform workspace select sit
 ```
 
+### Checks that all Terraform configuration files adhere to a canonical format
+
+```
+terraform fmt -check
+```
 
