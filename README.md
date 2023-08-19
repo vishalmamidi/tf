@@ -29,6 +29,12 @@ terraform workspace new sit
 terraform workspace select sit
 ```
 
+### force-unlock
+```
+terraform force-unlock [options] LOCK_ID
+```
+
+
 ### Checks that all Terraform configuration files adhere to a canonical format
 
 ```
